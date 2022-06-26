@@ -24,7 +24,7 @@ const Navbar = () => {
         if(pathname ==='/') setActiveItem('Accueil')
         if(pathname ==='/projects') setActiveItem('Projets')
         if(pathname ==='/resume') setActiveItem('Résumé')
-    }, [])
+    }, [pathname])
     return (
         <div className="flex justify-between px-5 py-2 my-3">
           <span className="text-xl font-bold border-b-4 text-blue border-blue md:text-2xl">{activeItem}</span>
