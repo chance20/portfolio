@@ -4,7 +4,7 @@ import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import {useTheme} from 'next-themes';
 
-const sidebar = () => {
+const Sidebar = () => {
   const { theme, setTheme } = useTheme()
 
   const changeTheme = ()=>{
@@ -76,4 +76,4 @@ const sidebar = () => {
   );
 };
 
-export default sidebar;
+export default Sidebar;

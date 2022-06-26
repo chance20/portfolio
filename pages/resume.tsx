@@ -29,7 +29,7 @@ const resume = () => {
             <h5 className="my-2 text-xl font-bold">Full stack developer </h5>
             <p className="font-semibold">
               {" "}
-              Wiikko & Splitti (2020 - jusqu'à présent)
+              Wiikko & Splitti (2020 - jusqu &apos; à présent)
             </p>
             <p className="my-3">Lorem ipsum dolor, sit amet consectetur </p>
           </div>
