@@ -24,9 +24,9 @@ const Sidebar = () => {
         <span className="text-blue-400 font-Kaushan">Chance </span>
         Muteba
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full">Développeur Web & Mobile  </p>
+      <p className="px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full">Développeur Web, Mobile & Trader  </p>
       <a
-        href=""
+        href="/files/CV.pdf"
         download=""
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full"
       >
@@ -40,11 +40,11 @@ const Sidebar = () => {
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
 
-        <a>
+        <a  href="https://linkedin.com/in/chancemuteba-aa17021b3" target="_blank" rel="noreferrer" >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
 
-        <a>
+        <a href='https://github.com/chance20' target='_blank' rel='noreferrer'>
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
       </div>

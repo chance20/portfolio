@@ -9,18 +9,18 @@ import {  IService, ISkill, IProject} from './type'
 export const services:IService[] = [
     {
          title:"Frontend Development",
-         about:"I can build  a beautiful and scalable SPA  using <b> HTML </b>, <b>CSS</b> and <b>React.js</b>",
+         about:"Je peux concevoir une belle application monopage et evolutive (SPA) en utilisant <b> HTML </b>, <b>CSS</b>, <b>React.js</b> et <b>Next.js</b>",
          Icon:RiComputerLine
     },
     {
         title:"Backend Development",
-        about:"Handle database, server, api using <b>Express</b> & other popular framework",
+        about:"Je gere les bases de donnees, le serveur d'api en utilisant <b>Express</b> & other popular framework",
         Icon:FaServer
    },
    {
-    title:"API Development",
-    about:"I can develop robust REST API using <b>ASP.NET Core</b> & <b>django-rest-api</b>",
-    Icon:AiOutlineApi
+      title:"API Development",
+      about:"I can develop robust REST API using <b>ASP.NET Core</b> & <b>django-rest-api</b>",
+      Icon:AiOutlineApi
   },
   {
     title:"Competitive Coder",
