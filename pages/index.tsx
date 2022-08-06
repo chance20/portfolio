@@ -10,8 +10,8 @@ const index = () => {
       rigoureux dans mon travail, autonome et aime travailler en équipe,
       ouvert à la critique, capable de partager et de proposer ses idées.
       En effet, je suis un informaticien expérimenté avec une expérience éprouvée 
-      dans l'industrie du commerce électronique, de la comptabilité et de 
-      l&apos;intelligence artificielle. J'ai une maîtrise en programmation informatique, 
+      dans l&apos;industrie du commerce électronique, de la comptabilité et de 
+      l&apos;intelligence artificielle. J&apos;ai une maîtrise en programmation informatique, 
       en apprentissage automatique, en base de données et en planification stratégique.
       Je suis détenteur d&apos;une licence en mathématiques et
       informatique de l&apos;université de Kinshasa et je suis toujours à la
