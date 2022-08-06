@@ -1,6 +1,6 @@
 import {RiComputerLine} from 'react-icons/ri'
 import {FaServer} from 'react-icons/fa'
-import {MdDeveloperMode} from 'react-icons/md'
+import {MdPhoneIphone} from 'react-icons/md'
 import {AiOutlineAntDesign, AiOutlineApi} from 'react-icons/ai'
 import {BsCircleFill} from 'react-icons/bs'
 import {  IService, ISkill, IProject} from './type'
@@ -9,33 +9,23 @@ import {  IService, ISkill, IProject} from './type'
 export const services:IService[] = [
     {
          title:"Frontend Development",
-         about:"Je peux concevoir une belle application monopage et evolutive (SPA) en utilisant <b> HTML </b>, <b>CSS</b>, <b>React.js</b> et <b>Next.js</b>",
+         about:"Je conçois des belles applications monopages et évolutives (SPA) en utilisant <b>HTML</b>, <b>CSS</b>, <b>BootStrap</b>, <b>Tailwind css</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>React.js</b>, <b>Next.js</b> et <b>Redux</b>. ",
          Icon:RiComputerLine
     },
     {
         title:"Backend Development",
-        about:"Je gere les bases de donnees, le serveur d'api en utilisant <b>Express</b> & other popular framework",
+        about:"Je gère les bases de données avec <b>SQL Server</b>, <b>MySQL Server</b>, <b>FireBase</b> et <b>MongoDB</b>. Je développe des robustes REST API  en utilisant <b>ASP.NET Core</b> & autres frameworks populaires",
         Icon:FaServer
    },
-   {
-      title:"API Development",
-      about:"I can develop robust REST API using <b>ASP.NET Core</b> & <b>django-rest-api</b>",
-      Icon:AiOutlineApi
-  },
-  {
-    title:"Competitive Coder",
-    about:"a daily problem solver in  <b>HanckerRank</b> and  <b>Leet code</b>",
-    Icon:MdDeveloperMode
-  },
   {
     title:"UI/UX designer",
-    about:"a daily problem solver in  <b>HanckerRank</b> and  <b>Leet code</b>",
+    about:"Je conçois des belles interfaces utilisateurs avec  <b>Figma</b>.",
     Icon:AiOutlineAntDesign
   },
   {
-    title:"Whatever",
-    about:"lorem...",
-    Icon:RiComputerLine
+    title:"Mobile Development",
+    about:"Je conçois des belles applications mobiles pour Android et IOS en utilisant <b>Dart</b> et <b>Flutter</b>.",
+    Icon:MdPhoneIphone
   },
 ]
 
@@ -54,19 +44,19 @@ export const languages:ISkill[] = [
     },
     {
         name:'Dart',
-        level:'50%',
+        level:'55%',
         Icon:BsCircleFill
 
     },
     {
         name:'TypeScript',
-        level:'40%',
+        level:'50%',
         Icon:BsCircleFill
 
     },
     {
         name:'JavaScript',
-        level:'50%',
+        level:'65%',
         Icon:BsCircleFill
 
     },
